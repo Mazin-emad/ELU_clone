@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box !important;
+  margin: 0;
+}
+
+@media (min-width: 760px) {
+  body {
+    background-image: url(EELU_BackGround-03.jpg);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
+
+.logo {
+  height: calc(60px - (0.25rem * 2));
+  margin: 15px 12px;
+}
+
+/* .icon {
+  position: relative;
+}
+.icon,
+.icon::after,
+.icon::before {
+  width: 20px;
+  height: 3px;
+  background-color: aqua;
+}
+
+.icon::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+}
+
+.icon::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+} */
+
+nav {
+  background-color: #1f4385 !important;
+  /* padding: 10px; */
+}
+nav a {
+  font-size: 20px !important;
+  color: white !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  transition: 0.5s;
+}
+nav a:hover:not(:last-child),
+nav li:hover {
+  color: black !important;
+  background-color: white;
+}
+
+nav ul a {
+  color: black !important;
+}
+
+.login {
+  position: absolute;
+  right: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.login a {
+  text-decoration: none;
+}
+.login a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 945px) {
+  nav .sugg {
+    display: none !important;
+  }
+}
+
+main {
+  background-color: white;
+  margin: 70px 15%;
+  border-radius: 10px;
+}
+main h1 {
+  padding-top: 15px;
+  margin-bottom: 20px;
+}
+@media (max-width: 1300px) {
+  main {
+    margin: 10%;
+  }
+}
+@media (max-width: 1100px) {
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media (max-width: 990px) {
+  main {
+    margin: 80px 20px 30px 20px;
+  }
+}
+@media (max-width: 760px) {
+  main {
+    margin: 20px 0;
+  }
+  .container {
+    max-width: 100% !important;
+  }
+  .vir-class {
+    display: none !important;
+  }
+}
+
+footer {
+  display: none;
+  padding: 30px 20px;
+}
+footer h3 {
+  font-weight: bold;
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  padding-top: 10px;
+}
+
+footer a {
+  color: #1f4385;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #145adc;
+}
+.foot-contact,
+.foot-vir-class,
+.foot-sugg {
+  padding-left: 30px;
+}
+
+@media (max-width: 700px) {
+  footer {
+    display: block;
+  }
+  .faculties,
+  .contact {
+    display: none !important;
+  }
+}

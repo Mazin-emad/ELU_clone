@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="login.css" />
+    <script defer src="bootstrap.bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>login</title>
+  </head>
+  <body>
+    <div class="background">
+      <!-- form section -->
+      <div class="form-container">
+        <div class="form">
+          <div class="logo">
+            <img src="login-EELU.png" alt="EELU" />
+          </div>
+          <!-- the form -->
+          <form action="" class="login-form">
+            <input type="text" id="id-input" placeholder="Username" />
+            <input type="password" id="pass-input" placeholder="password" />
+            <div class="btns">
+              <button class="submit-btn" type="submit">Log in</button>
+              <button class="register-btn" type="button">Register</button>
+            </div>
+            <a href="https://moodlelms.eelu.edu.eg/login/forgot_password.php"
+              >Lost password?</a
+            >
+          </form>
+          <hr />
+          <!-- access as guest section -->
+          <div class="guest-section">
+            <h2>Some courses may allow guest access</h2>
+            <button class="guest-btn" type="submit">Access as a guest</button>
+          </div>
+
+          <hr />
+          <!-- cookies -->
+          <div class="cookies">
+            <button class="cookies-btn">cookies notice</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer button (in the large screens)-->
+      <button class="summary-btn" id="my-btn">?</button>
+
+      <!-- footer section (in the mobile screens) -->
+      <footer id="footer">
+        <div class="text"><p>You are not logged in.</p></div>
+        <hr />
+        <div class="get-mobile">
+          <a
+            href="https://moodlelms.eelu.edu.eg/admin/tool/dataprivacy/summary.php"
+            class="summary"
+            >Data retention summary</a
+          >
+          <a
+            href="https://download.moodle.org/mobile?version=2023042402.11&lang=en&iosappid=633359593&androidappid=com.moodle.moodlemobile"
+            class="get-app"
+            >Get the mobile app</a
+          >
+        </div>
+        <hr />
+        <div class="moodle">
+          <p>Powered by <a href="https://moodle.com/"> Moodle</a></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
